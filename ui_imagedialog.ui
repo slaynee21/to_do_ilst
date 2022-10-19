@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ImageDialog</class>
+ <widget class="QDialog" name="ImageDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>251</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="dateTimeEdit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
