@@ -6,6 +6,7 @@ app = QApplication(sys.argv)
 window = QDialog()
 ui = Ui_ImageDialog()
 ui.setupUi(window)
+print("qwe")
 
 window.show()
 sys.exit(app.exec())
